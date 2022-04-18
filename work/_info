@@ -1,0 +1,339 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/modeltech64_2020.4/examples
+T_opt
+!s110 1650253568
+V7R8nm]JMl4hi:2O^6kkld1
+Z1 04 2 4 work tb fast 0
+=1-f06e0bd8ce44-625cdeff-36a-1f1c
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1650244108
+VE>Se4=SSO8jNzDShiLIZW3
+04 6 4 work pc_reg fast 0
+=1-f06e0bd8ce44-625cba0c-7f-2e00
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1650258604
+V17[oD?<;oLA9;OfXGEFV[0
+R1
+=1-f06e0bd8ce44-625cf2ac-e7-3290
+o-quiet -auto_acc_if_foreign -work work +acc
+R3
+n@_opt2
+R4
+vex
+Z5 !s110 1650258581
+!i10b 1
+!s100 ;K3H9`JRIPE3AecB4TSMX3
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I6;kC]ebWG73Lc1:WBP<_<2
+Z7 dC:/Users/evanl/Documents/openmips
+w1650248194
+8ex.v
+Fex.v
+!i122 78
+L0 3 49
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z10 !s108 1650258581.000000
+Z11 !s107 if_id.v|mem.v|mem_wb.v|id_ex.v|ex_mem.v|ex.v|regfile.v|id.v|pc_reg.v|defines.v|C:/Users/evanl/Documents/openmips/openmips.v|
+Z12 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/evanl/Documents/openmips/openmips.v|
+!i113 0
+Z13 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vex_mem
+R5
+!i10b 1
+!s100 9Q[JNZ:T2Ic;1J4F2VoG;2
+R6
+I[if_BOFVKf5e8T5_VeQR80
+R7
+w1650206265
+8ex_mem.v
+Fex_mem.v
+!i122 78
+Z14 L0 3 28
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R3
+vid
+R5
+!i10b 1
+!s100 Zikb8=L7i5^h=D5lNOoVA1
+R6
+IZgGeRS>PS=cokh]WRD45:2
+R7
+w1650258072
+8id.v
+Fid.v
+!i122 78
+L0 4 104
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R3
+vid_ex
+R5
+!i10b 1
+!s100 NklLlXeUBmE10eNAbM7hd1
+R6
+IR^I`NR[02H0`aNNghLP0V3
+R7
+w1650248328
+8id_ex.v
+Fid_ex.v
+!i122 78
+L0 4 40
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R3
+vif_id
+R5
+!i10b 1
+!s100 j4WR5X1aOQT7:1RN2k;FK1
+R6
+IEOK`54lL<[7WFVmcb8CPk0
+R7
+w1650248303
+8if_id.v
+Fif_id.v
+!i122 78
+L0 5 22
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R3
+vinst_rom
+Z15 !s110 1650250737
+!i10b 1
+!s100 :goGei3XGM6@RdZ;DimV:0
+R6
+Ikfo@m]S4=2deNBz8ZIcc23
+R7
+w1650247543
+8inst_rom.v
+Finst_rom.v
+!i122 73
+L0 3 21
+R8
+R9
+r1
+!s85 0
+31
+Z16 !s108 1650250737.000000
+Z17 !s107 inst_rom.v|if_id.v|mem.v|mem_wb.v|id_ex.v|ex_mem.v|ex.v|regfile.v|id.v|pc_reg.v|openmips.v|defines.v|openmips_min_sopc.v|C:/Users/evanl/Documents/openmips/tb.v|
+Z18 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/evanl/Documents/openmips/tb.v|
+!i113 0
+R13
+R3
+vmem
+R5
+!i10b 1
+!s100 40H?SJ<`C[;o5>PMF=9Jd2
+R6
+Ib[Bj<YKH3nm?3cWcol_j40
+R7
+w1650206519
+8mem.v
+Fmem.v
+!i122 78
+L0 3 27
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R3
+vmem_wb
+R5
+!i10b 1
+!s100 MFeT4TLZDEb]8fY>]NB:h0
+R6
+I[f`hSgDTL]EB@dBC2iTe71
+R7
+w1650206830
+8mem_wb.v
+Fmem_wb.v
+!i122 78
+R14
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R3
+vopenmips
+R5
+!i10b 1
+!s100 ZmMcjWT8iMm_W4R1C62<N0
+R6
+I5MYo`39PA7ncM8MahS72:1
+R7
+w1650258578
+8C:/Users/evanl/Documents/openmips/openmips.v
+FC:/Users/evanl/Documents/openmips/openmips.v
+!i122 78
+L0 12 152
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R3
+vopenmips_min_sopc
+R15
+!i10b 1
+!s100 bP40d1]nG[E1@6;9lFeSz3
+R6
+I^FOYj4n>WR>m?0`1PU?673
+R7
+w1650247658
+8openmips_min_sopc.v
+Fopenmips_min_sopc.v
+!i122 73
+L0 4 22
+R8
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R3
+vpc_reg
+R5
+!i10b 1
+!s100 VP52zOd168mfac^MX[On11
+R6
+ICKh=d;[;eK@X=FJTnaW3_0
+R7
+w1650248332
+8pc_reg.v
+Fpc_reg.v
+!i122 78
+L0 4 24
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R3
+vregfile
+R5
+!i10b 1
+!s100 9fb_=;<VCX1TOOGUDGDE03
+R6
+I[e[m24KK`fg_d7gHBhAR@2
+R7
+w1650248325
+8regfile.v
+Fregfile.v
+!i122 78
+L0 4 55
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R3
+vtb
+R15
+!i10b 1
+!s100 QlbhK>iIIn8IO:hdW=<Ui3
+R6
+Io?@I6TJa8^JUL>86NKXXL2
+R7
+w1650250730
+8C:/Users/evanl/Documents/openmips/tb.v
+FC:/Users/evanl/Documents/openmips/tb.v
+!i122 73
+L0 3 19
+R8
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R3
