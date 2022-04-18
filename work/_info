@@ -14,64 +14,64 @@ T_opt
 V7R8nm]JMl4hi:2O^6kkld1
 Z1 04 2 4 work tb fast 0
 =1-f06e0bd8ce44-625cdeff-36a-1f1c
-Z2 o-quiet -auto_acc_if_foreign -work work
-Z3 tCvgOpt 0
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
 n@_opt
-Z4 OL;O;2020.4;71
+Z3 OL;O;2020.4;71
 R0
 T_opt1
-!s110 1650244108
-VE>Se4=SSO8jNzDShiLIZW3
-04 6 4 work pc_reg fast 0
-=1-f06e0bd8ce44-625cba0c-7f-2e00
+!s110 1650259238
+VTL5NFRI2h`?5JXg<_=ALE0
+R1
+=1-f06e0bd8ce44-625cf525-327-3bc4
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
 R2
-R3
 n@_opt1
-R4
-R0
+R3
 T_opt2
 !s110 1650258604
 V17[oD?<;oLA9;OfXGEFV[0
 R1
 =1-f06e0bd8ce44-625cf2ac-e7-3290
-o-quiet -auto_acc_if_foreign -work work +acc
-R3
-n@_opt2
 R4
+R2
+n@_opt2
+R3
+R0
 vex
-Z5 !s110 1650258581
+Z5 !s110 1650259226
 !i10b 1
-!s100 ;K3H9`JRIPE3AecB4TSMX3
+!s100 Jb6=YSJnhCNgGlE>dbU@73
 Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I6;kC]ebWG73Lc1:WBP<_<2
-Z7 dC:/Users/evanl/Documents/openmips
+IZiH;z<:eZn29EDMdGn[C?0
+Z7 dC:/Users/evanl/Documents/openmips/openmips-impl
 w1650248194
 8ex.v
 Fex.v
-!i122 78
+!i122 91
 L0 3 49
 Z8 VDg1SIo80bB@j0V0VzS_@n1
 Z9 OL;L;2020.4;71
 r1
 !s85 0
 31
-Z10 !s108 1650258581.000000
-Z11 !s107 if_id.v|mem.v|mem_wb.v|id_ex.v|ex_mem.v|ex.v|regfile.v|id.v|pc_reg.v|defines.v|C:/Users/evanl/Documents/openmips/openmips.v|
-Z12 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/evanl/Documents/openmips/openmips.v|
+Z10 !s108 1650259226.000000
+Z11 !s107 inst_rom.v|if_id.v|mem.v|mem_wb.v|id_ex.v|ex_mem.v|ex.v|regfile.v|id.v|pc_reg.v|openmips.v|defines.v|openmips_min_sopc.v|C:/Users/evanl/Documents/openmips/openmips-impl/tb.v|
+Z12 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/evanl/Documents/openmips/openmips-impl/tb.v|
 !i113 0
 Z13 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R3
+R2
 vex_mem
 R5
 !i10b 1
-!s100 9Q[JNZ:T2Ic;1J4F2VoG;2
+!s100 8zSW0:HoL5>>R9lnHJQ6k1
 R6
-I[if_BOFVKf5e8T5_VeQR80
+I?l_LOMF]TRYj[<c1B3hWL3
 R7
 w1650206265
 8ex_mem.v
 Fex_mem.v
-!i122 78
+!i122 91
 Z14 L0 3 28
 R8
 R9
@@ -83,18 +83,18 @@ R11
 R12
 !i113 0
 R13
-R3
+R2
 vid
 R5
 !i10b 1
-!s100 Zikb8=L7i5^h=D5lNOoVA1
+!s100 99X;?N;]3@hZUS1neY[lQ3
 R6
-IZgGeRS>PS=cokh]WRD45:2
+I_^A;I`31j6^l=fgEEjJB21
 R7
 w1650258072
 8id.v
 Fid.v
-!i122 78
+!i122 91
 L0 4 104
 R8
 R9
@@ -106,18 +106,18 @@ R11
 R12
 !i113 0
 R13
-R3
+R2
 vid_ex
 R5
 !i10b 1
-!s100 NklLlXeUBmE10eNAbM7hd1
+!s100 em;jX;^A3nYE5jC61PMW10
 R6
-IR^I`NR[02H0`aNNghLP0V3
+I@njCTFWf:io^?22Kj^0cA1
 R7
 w1650248328
 8id_ex.v
 Fid_ex.v
-!i122 78
+!i122 91
 L0 4 40
 R8
 R9
@@ -129,18 +129,18 @@ R11
 R12
 !i113 0
 R13
-R3
+R2
 vif_id
 R5
 !i10b 1
-!s100 j4WR5X1aOQT7:1RN2k;FK1
+!s100 bgjAAmaRRVPG5^k@;mBia3
 R6
-IEOK`54lL<[7WFVmcb8CPk0
+IZMk?cg9XA^8iVWc?TB:D=2
 R7
 w1650248303
 8if_id.v
 Fif_id.v
-!i122 78
+!i122 91
 L0 5 22
 R8
 R9
@@ -152,9 +152,9 @@ R11
 R12
 !i113 0
 R13
-R3
+R2
 vinst_rom
-Z15 !s110 1650250737
+R5
 !i10b 1
 !s100 :goGei3XGM6@RdZ;DimV:0
 R6
@@ -163,30 +163,30 @@ R7
 w1650247543
 8inst_rom.v
 Finst_rom.v
-!i122 73
+!i122 91
 L0 3 21
 R8
 R9
 r1
 !s85 0
 31
-Z16 !s108 1650250737.000000
-Z17 !s107 inst_rom.v|if_id.v|mem.v|mem_wb.v|id_ex.v|ex_mem.v|ex.v|regfile.v|id.v|pc_reg.v|openmips.v|defines.v|openmips_min_sopc.v|C:/Users/evanl/Documents/openmips/tb.v|
-Z18 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/evanl/Documents/openmips/tb.v|
+R10
+R11
+R12
 !i113 0
 R13
-R3
+R2
 vmem
 R5
 !i10b 1
-!s100 40H?SJ<`C[;o5>PMF=9Jd2
+!s100 0S8IR[4fj_3U6EC10J;2^3
 R6
-Ib[Bj<YKH3nm?3cWcol_j40
+IPj_B`V=;CD>2mCb`=:Qcc2
 R7
 w1650206519
 8mem.v
 Fmem.v
-!i122 78
+!i122 91
 L0 3 27
 R8
 R9
@@ -198,18 +198,18 @@ R11
 R12
 !i113 0
 R13
-R3
+R2
 vmem_wb
 R5
 !i10b 1
-!s100 MFeT4TLZDEb]8fY>]NB:h0
+!s100 6T6QD_N_bFU6<E]9GYYcP0
 R6
-I[f`hSgDTL]EB@dBC2iTe71
+I[mOUaA3S3n5nMzio2h0DZ0
 R7
 w1650206830
 8mem_wb.v
 Fmem_wb.v
-!i122 78
+!i122 91
 R14
 R8
 R9
@@ -221,18 +221,18 @@ R11
 R12
 !i113 0
 R13
-R3
+R2
 vopenmips
 R5
 !i10b 1
-!s100 ZmMcjWT8iMm_W4R1C62<N0
+!s100 U:VbO?5d<QinK1z]?_EC<0
 R6
-I5MYo`39PA7ncM8MahS72:1
+IZJzJz9HOYi`GDRA8Z>6HS3
 R7
 w1650258578
-8C:/Users/evanl/Documents/openmips/openmips.v
-FC:/Users/evanl/Documents/openmips/openmips.v
-!i122 78
+8openmips.v
+Fopenmips.v
+!i122 91
 L0 12 152
 R8
 R9
@@ -244,9 +244,9 @@ R11
 R12
 !i113 0
 R13
-R3
+R2
 vopenmips_min_sopc
-R15
+R5
 !i10b 1
 !s100 bP40d1]nG[E1@6;9lFeSz3
 R6
@@ -255,30 +255,30 @@ R7
 w1650247658
 8openmips_min_sopc.v
 Fopenmips_min_sopc.v
-!i122 73
+!i122 91
 L0 4 22
 R8
 R9
 r1
 !s85 0
 31
-R16
-R17
-R18
+R10
+R11
+R12
 !i113 0
 R13
-R3
+R2
 vpc_reg
 R5
 !i10b 1
-!s100 VP52zOd168mfac^MX[On11
+!s100 k^<E1G;flfF]e^C]W:Pjf3
 R6
-ICKh=d;[;eK@X=FJTnaW3_0
+If7[fEmQ<3NkH0F;6ZdWb_0
 R7
 w1650248332
 8pc_reg.v
 Fpc_reg.v
-!i122 78
+!i122 91
 L0 4 24
 R8
 R9
@@ -290,18 +290,18 @@ R11
 R12
 !i113 0
 R13
-R3
+R2
 vregfile
 R5
 !i10b 1
-!s100 9fb_=;<VCX1TOOGUDGDE03
+!s100 >LNHHUZM08`4oLDRFPE[Y0
 R6
-I[e[m24KK`fg_d7gHBhAR@2
+IgQ5UYC8:zCek5KcVHYWU12
 R7
 w1650248325
 8regfile.v
 Fregfile.v
-!i122 78
+!i122 91
 L0 4 55
 R8
 R9
@@ -313,27 +313,27 @@ R11
 R12
 !i113 0
 R13
-R3
+R2
 vtb
-R15
+R5
 !i10b 1
 !s100 QlbhK>iIIn8IO:hdW=<Ui3
 R6
-Io?@I6TJa8^JUL>86NKXXL2
+I:mzQINez9Q0I[69heDkFW3
 R7
 w1650250730
-8C:/Users/evanl/Documents/openmips/tb.v
-FC:/Users/evanl/Documents/openmips/tb.v
-!i122 73
+8C:/Users/evanl/Documents/openmips/openmips-impl/tb.v
+FC:/Users/evanl/Documents/openmips/openmips-impl/tb.v
+!i122 91
 L0 3 19
 R8
 R9
 r1
 !s85 0
 31
-R16
-R17
-R18
+R10
+R11
+R12
 !i113 0
 R13
-R3
+R2
